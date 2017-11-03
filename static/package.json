@@ -1,0 +1,52 @@
+{
+  "name": "order-meal-systems",
+  "version": "1.0.0",
+  "description": "The project depend on vue 2.x and webpack3 and node",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack-dev-server -d --inline --config webpack.config.js",
+    "watch": "webpack --progress --watch",
+    "build": "webpack"
+  },
+  "author": "team",
+  "license": "MIT",
+  "dependencies": {
+    "clean-webpack-plugin": "^0.1.17",
+    "vue": "^2.4.4"
+  },
+  "devDependencies": {
+    "autoprefixer": "^6.7.7",
+    "axios": "^0.15.3",
+    "jsonp": "^0.2.1",
+    "babel-core": "^6.26.0",
+    "babel-eslint": "^7.2.3",
+    "babel-loader": "^6.4.1",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-3": "^6.24.1",
+    "babel-polyfill": "^6.26.0",
+    "clean-webpack-plugin":"^0.1.17",
+    "css-loader": "^0.27.3",
+    "less": "^2.7.3",
+    "less-loader": "^4.0.5",
+    "style-loader": "^0.13.2",
+    "eslint": "^3.19.0",
+    "eslint-config-enough": "^0.2.8",
+    "eslint-loader": "^1.9.0",
+    "file-loader": "^0.10.1",
+    "html-loader": "^0.4.5",
+    "html-webpack-plugin": "^2.30.1",
+    "extract-text-webpack-plugin": "^2.1.2",
+    "optimize-css-assets-webpack-plugin": "^2.0.0",
+    "html-webpack-inline-source-plugin": "^0.0.9",
+    "mockjs": "1.0.1-beta3",
+    "nprogress": "^0.2.0",
+    "postcss-loader": "^1.3.3",
+    "script-loader": "0.7.0",
+    "url-loader": "^0.5.9",
+    "vue-loader": "^11.3.4",
+    "vue-router": "^2.8.1",
+    "vue-template-compiler": "^2.5.2",
+    "webpack": "^2.7.0",
+    "webpack-dev-server": "^2.9.3"
+  }
+}

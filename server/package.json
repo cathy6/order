@@ -1,0 +1,33 @@
+{
+  "name": "order-meal-server",
+  "version": "1.0.0",
+  "description": "The project publish server",
+  "main": "index.js",
+  "scripts": {
+    "debug": "node --inspect main.js",
+    "server": "node main.js",
+    "watch-static": "cd ../static && npm run watch",
+    "dev": "npm run debug && npm run watch-static"
+  },
+  "keywords": [
+    "express",
+    "vue"
+  ],
+  "author": "team",
+  "license": "ISC",
+  "devDependencies": {
+    "body-parser": "^1.18.2",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.16.2",
+    "compression": "^1.7.1",
+    "mysql": "^2.15.0",
+    "node-uuid": "^1.4.8",
+    "opn": "^4.0.2",
+    "redis": "^2.8.0"
+  },
+  "dependencies": {
+    "formidable": "^1.1.1",
+    "node-schedule": "^1.2.5",
+    "nodemailer": "^4.3.1"
+  }
+}
